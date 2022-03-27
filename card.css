@@ -1,0 +1,118 @@
+/* Card */
+
+.card-akatsuki {
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 7px 7px 5px 5px;
+    border-radius: 10px;   
+}
+
+.card-akatsuki .card-top {
+    padding: 30px 40px 0;
+}
+
+.card-akatsuki .name {
+    margin-bottom: 5px;
+}
+
+.card-akatsuki .aldeia {
+    font-size: 15px;
+    background-color: #ffff;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-akatsuki .details {
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card-akatsuki .card-img {
+    width: 450px;
+    height: 450px;
+}
+
+.card-akatsuki img {
+    max-height: 100%;
+    margin-left: 70px;
+}
+
+.card-akatsuki .card-informations {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card-akatsuki .card-informations h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+}
+
+.card-akatsuki .card-informations .status, .card-akatsuki .card-informations .skills {
+    padding: 0 10 px;
+    width: 180px;
+}
+
+.card-akatsuki .card-informations .skills ul li, .card-akatsuki .card-informations .status ul li {
+    border-bottom: 1px solid #c3c4c5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.card-akatsuki.open {
+    display: block;
+}
+
+.itachi {
+    background-color: #ff0004;
+}
+
+.obito {
+    background-color: #912426;
+}
+
+.nagato {
+    background-color: #7e317b;
+}
+
+.orochimaru {
+    background-color: #645252;
+}
+
+.konan {
+    background-color: #f7c584;
+}
+
+.kakuzu {
+    background-color: #966b6c;
+}
+
+.hidan {
+    background-color: #3d0f10;
+}
+
+.kisame {
+    background-color: #0d3b81;
+}
+
+.deidara {
+    background-color: #dbbe4b;
+}
+
+.sasori {
+    background-color: #d18015;
+}
+
+.zetsu {
+    background-color: #063f16;
+}
+

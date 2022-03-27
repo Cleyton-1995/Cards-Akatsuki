@@ -1,0 +1,80 @@
+/* List- nav */
+.list {
+    max-width: 200px;
+}
+
+.list .akatsuki {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #ffff;
+    background-color: #6B727A;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    min-height: 70px;
+    box-shadow: rgba(1000, 100, 111, 0.2) 0px 7px 29px 0px;   
+}
+
+.list .akatsuki:hover {
+    transform: scale(1.05);
+}
+
+.list .akatsuki img {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.list .akatsuki span {
+    padding-right: 20px;
+}
+
+/* .list .akatsuki.active {
+    background-color: #ff0004;
+} */
+
+.list .akatsuki.active#itachi {
+    background-color: #ff0004;
+}
+
+.list .akatsuki.active#obito {
+    background-color: #912426;
+}
+
+.list .akatsuki.active#nagato {
+    background-color: #7e317b;
+}
+
+.list .akatsuki.active#orochimaru {
+    background-color: #966b6c;
+}
+
+.list .akatsuki.active#konan {
+    background-color: #f7c584;
+}
+
+.list .akatsuki.active#kakuzu {
+    background-color: #966b6c;
+}
+
+.list .akatsuki.active#hidan {
+    background-color: #3d0f10;
+}
+
+.list .akatsuki.active#kisame {
+    background-color: #0d3b81;
+}
+
+.list .akatsuki.active#deidara {
+    background-color: #dbbe4b;
+}
+
+.list .akatsuki.active#sasori {
+    background-color: #d18015;
+}
+
+.list .akatsuki.active#zetsu {
+    background-color: #063f16;
+} 

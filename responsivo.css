@@ -1,0 +1,60 @@
+/* Resposividade */
+
+@media (max-width: 750px) {
+    body {
+        font-size: 15px;
+    }
+
+    .powerskills {
+        flex-direction: column;
+        padding: 30px 0;
+    } 
+
+    .card-akatsuki {
+        max-width: 400px;
+    }
+
+    .card-akatsuki .card-img {
+        width: 450px;
+        height: 450px;
+        margin-right: 80px;
+    }
+    
+
+    .card-akatsuki .card-informations {
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+
+    .card-akatsuki .card-informations .informations {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .card-akatsuki .card-informations h3 {
+        font-size: 16px;
+    }
+
+    .list {
+        max-width: 400px;
+    }
+
+    .list ul {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .list .akatsuki {
+        width: 180px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-top: 0;
+    }
+
+    .list .akatsuki span {
+        padding-right: 5px;
+    }
+}
